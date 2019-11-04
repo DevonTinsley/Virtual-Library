@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualLibraryApplication",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualLibraryTests", "tests\VirtualLibraryTests\VirtualLibraryTests.csproj", "{F91F06B2-D03C-4D4B-91FD-7B45B6135C8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualLibrary.Interface", "VirtualLibrary.Interface\VirtualLibrary.Interface.csproj", "{BD751B5C-2DF9-4671-9F2A-2964E300DC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualLibrary.Service", "VirtualLibrary.Service\VirtualLibrary.Service.csproj", "{09C54F16-1935-4294-86F8-E0686B06B58E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F91F06B2-D03C-4D4B-91FD-7B45B6135C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F91F06B2-D03C-4D4B-91FD-7B45B6135C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F91F06B2-D03C-4D4B-91FD-7B45B6135C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD751B5C-2DF9-4671-9F2A-2964E300DC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD751B5C-2DF9-4671-9F2A-2964E300DC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD751B5C-2DF9-4671-9F2A-2964E300DC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD751B5C-2DF9-4671-9F2A-2964E300DC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C54F16-1935-4294-86F8-E0686B06B58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C54F16-1935-4294-86F8-E0686B06B58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C54F16-1935-4294-86F8-E0686B06B58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C54F16-1935-4294-86F8-E0686B06B58E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
